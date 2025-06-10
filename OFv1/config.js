@@ -9,7 +9,7 @@ window.modelConfig = {
   ],
   vaultOfferText: "🎉 55% OFF for 24 Hours Only",
   vaultOfferSub: "Unlock my private vault and save big – offer expires soon!",
-  ctaLink: "https://onlyfans.com",
+  ctaLink: "https://onlyfans.com/angelaalvarez/c92",
   testimonials: [
     { initials: "JD", text: "Not gonna lie, this is the best thing I've ever seen in my life, I don't regret it at all", joined: "3 months ago" },
     { initials: "MK", text: "Thanks for the special twerking video, even saying my name", joined: "1 month ago" },
