@@ -1,6 +1,6 @@
 window.modelConfig = {
-  name: "Test Person",
-  handle: "@testperson",
+  name: "Angela",
+  handle: "@angelaalvarez",
   locationFallback: "Miami",
   profileImage: "images/profile.jpg",
   teaseImages: [
