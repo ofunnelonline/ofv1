@@ -158,7 +158,17 @@
         document.getElementById('about-location').textContent = 'your area';
       });
 
-    document.querySelectorAll('[data-cta]').forEach(el => el.href = window.modelConfig.ctaLink);
+    document.querySelectorAll('[data-cta]').forEach(el => {
+      el.href = window.modelConfig.ctaLink;
+      const label = el.dataset.label || 'Subscribe Click';
+      el.addEventListener('click', () => {
+        gtag('event', 'click', {
+          event_category: 'CTA',
+          event_label: label
+        });
+      });
+    });
+
   </script>
 </body>
 </html>
